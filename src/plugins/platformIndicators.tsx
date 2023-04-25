@@ -35,8 +35,8 @@ function Icon(path: string, viewBox = "0 0 24 24") {
             {(tooltipProps: any) => (
                 <svg
                     {...tooltipProps}
-                    height="20"
-                    width="20"
+                    height="16"
+                    width="16"
                     viewBox={viewBox}
                     fill={color}
                 >
